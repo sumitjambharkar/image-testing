@@ -44,7 +44,7 @@ app.post("/upload-image", (req, res) => {
       console.log(err);
       return res.status(500).json({ message: "Error uploading image" });
     } else {
-      const imageUrl = `https://modafinia.com/image/${imageName}`;
+      const imageUrl = `https://image-s6pl.onrender.com/image/${imageName}`;
 
       try {
         // Save the image URL to the database
